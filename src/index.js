@@ -11,6 +11,7 @@ const typeDefs = gql`
   }
 `;
 
+// example using graphql/apollo starting project
 const resolvers = {
   Query: {
     email: () => "my email is marco.mendoza.hill@gmail.com"
